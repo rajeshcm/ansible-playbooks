@@ -1,0 +1,7 @@
+---
+- name: Reboot devices running Junos OS
+  hosts: dc1
+  roles:
+    - Juniper.junos  
+  connection: local
+  gather_facts: no
